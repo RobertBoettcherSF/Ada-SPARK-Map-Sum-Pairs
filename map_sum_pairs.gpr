@@ -1,4 +1,4 @@
-project MapSumPairs is
+project Map_Sum_Pairs is
    for Source_Dirs use (".");
    for Main use ("tests.adb");
    for Object_Dir use "obj";
@@ -7,4 +7,4 @@ project MapSumPairs is
    package Compiler is
       for Default_Switches ("Ada") use ("-gnatwa", "-gnat2022", "-gnata");
    end Compiler;
-end MapSumPairs;
+end Map_Sum_Pairs;
